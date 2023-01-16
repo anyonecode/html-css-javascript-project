@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.squr{
+    width: 200px;
+    background-color: gray;
+    height: 400px;
+}
+.cir{
+    width: 200px;
+    background-color: black;
+    height: 200px;
+    rotate: ;
+}

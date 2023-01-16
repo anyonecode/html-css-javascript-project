@@ -1,0 +1,180 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:rgb(236, 230, 230);
+    background-size: cover;
+    font-family: sans-serif;
+
+
+}
+.main header{
+    font-size: 41px;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.container h2{
+    font-size: 25px ;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.container p{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
+.container{
+    width: 420px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 3px 3px rgb(158, 157, 157);
+    border-radius: 4px;
+    
+
+}
+.container hr{
+    color: rgba(128, 128, 128, 0.738);
+}
+.allbox{
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+h1{
+    text-align: center;
+}
+
+.box{
+    display:flex;
+    gap: 10px;
+    
+    
+}
+.box input{
+    border-radius: 6px;
+    height: 35px;
+    width: 200px;
+    border-style: solid;
+}
+.box1 input{
+    border-radius: 6px;
+
+}
+.box1{
+    background-color: rgba(255, 255, 255,);
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    height: 35px;
+    
+}
+.box1 input{
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+}
+.dob p{
+    text-align: start;
+    font-size: 13px;
+}
+.date{
+    width: 130px;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+}
+.month{
+    width: 130px;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+}
+.year{
+    width: 130px;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+}
+.b1{
+    display: flex;
+    gap: 20px;
+}
+
+.gender p{
+    text-align: start;
+    font-size: 13px;
+
+}
+.m{
+    box-sizing: border-box;
+    outline-style: solid;
+    outline-color: gray;
+    outline-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 130px;
+    display: flex;
+    gap: 40px;
+}
+.f{
+    box-sizing: border-box;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 130px;
+    display: flex;
+    gap: 30px;
+}
+.c{
+    box-sizing: border-box;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 130px;
+    display: flex;
+    gap: 20px;
+}
+.login button{
+    width: 250px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(29, 212, 29);
+    margin-top: 10px;
+    margin-left: 70px;
+
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
+.para p{
+    font-size: 10px;
+    text-align: start;
+    color: gray;
+}
+.para a{
+    text-decoration: none;
+}
+.have{
+    padding: 20px;
+    text-align: center;
+
+
+}
+.have a{
+    text-decoration: none;
+}
+
+
+
+

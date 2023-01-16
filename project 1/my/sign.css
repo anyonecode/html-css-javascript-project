@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:rgb(236, 230, 230);
+    background-size: cover;
+    font-family: sans-serif;
+
+
+}
+.main header{
+    font-size: 40px;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    margin-top: 120px;
+    font-weight: 600;
+}
+.container h2{
+    font-size: 25px ;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.container p{
+    text-align: center;
+    color: gray;
+    font-size: 13px;
+}
+.container{
+    width: 420px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 1px 1px 3px 3px rgb(158, 157, 157);
+    border-radius: 4px;
+    
+
+}
+.container hr{
+    color: rgba(128, 128, 128, 0.738);
+}
+.allbox{
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+h1{
+    text-align: center;
+}
+
+.box input{
+    border-radius: 6px;
+    height: 35px;
+    width: 393px;
+    border-style: solid;
+    margin-top: 15px;
+}
+.box1 input{
+    border-radius: 6px;
+
+}
+.box1{
+    background-color: rgba(255, 255, 255,);
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    height: 35px;
+    
+}
+.box1 input{
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+}
+.login button{
+    width: 350px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(29, 72, 212);
+    margin-top: 20px;
+    margin-left: 35px;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
+.have{
+    padding: 20px;
+    text-align: center;
+
+
+}
+.login button:hover{
+    background-color: rgb(50, 94, 241);
+
+}
+.have a{
+    text-decoration: none;
+}
+.creat{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.creat button{
+    width: 200px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgb(16, 240, 16);
+    margin-left: 100px;
+    font-weight: 500;
+    border-style: none;
+    font-size: 15px;
+    color: rgb(2, 2, 2);
+}
+.creat button:hover{
+    background-color: rgb(92, 241, 92);
+}
+
+
+
+
+

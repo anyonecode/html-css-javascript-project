@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:url(wallpaperflare.com_wallpaper4.jpg) no-repeat;
+    background-size: cover;
+}
+.navebar{
+    margin-top: 30px;
+}
+.navebar img{
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+.menu{
+    margin-left: 800px;
+}
+.navebar ul {
+    font-family: "chivo mono",monospace;
+    display: flex;
+    gap: 60px;
+    
+  }
+  
+.navebar  li {
+    list-style: none;
+    
+    
+  }
+  
+.navebar  li a {
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 0px;
+    transition: 0.5s ease;
+    
+  }
+ul:hover li a{
+    color: #ff0000;
+}
+  
+Ul:hover li a:not(:hover) {
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+}
+.container{
+    display: flex;
+    gap: 70px;
+    margin-top: 150px;
+    margin-left: 80px;
+    text-align: center;
+
+}
+.container .project1{
+    box-sizing: border-box;
+    width: 220px;
+    color: rgb(255, 255, 255);
+    
+}
+.p1{
+    background:linear-gradient(rgba(0, 153, 255, 0.547),rgba(0, 255, 102, 0.558));
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.p2{
+    background:linear-gradient(rgba(0, 0, 255, 0.547),rgba(255, 166, 0, 0.558));
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.p3{
+    background:linear-gradient(rgba(204, 0, 255, 0.547),rgba(0, 255, 174, 0.558));
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.p4{
+    background:linear-gradient(rgba(245, 248, 79, 0.547),rgba(255, 106, 0, 0.558));
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.p5{
+    background:linear-gradient(rgba(255, 0, 191, 0.547),rgba(25, 0, 255, 0.558));
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.project1{
+    transition:all ease-in-out 250ms;
+}
+button{
+    background: rgb(255, 255, 255);
+    color: rgb(1, 1, 1);
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+}
+.container button{
+    transition:all ease-in-out 250ms;
+    border-radius: 20px;
+}
+.p1 button:hover{
+    background: rgba(253, 0, 0, 0.83);
+    color:rgb(5, 5, 5);
+
+}
+.p2 button:hover{
+    background: rgb(0, 253, 110);
+    color:rgb(5, 5, 5);
+    
+}
+.p3 button:hover{
+    background: rgb(0, 38, 253);
+    color:rgb(5, 5, 5);
+    
+}
+.p4 button:hover{
+    background: rgb(0, 253, 249);
+    color:rgb(5, 5, 5);
+    
+}
+.p5 button:hover{
+    background: rgb(249, 253, 0);
+    color:rgb(5, 5, 5);
+    
+}
+.more button{
+    width: 120px;
+    background: #fefefe;
+    color: rgb(4, 4, 4);
+    margin-top: 80px;
+    margin-left: 715px;
+    transition: 0.8ms ease;
+}
+.more button:hover{
+    background: rgb(255, 2, 2);
+    color: rgb(250, 247, 247);
+
+}

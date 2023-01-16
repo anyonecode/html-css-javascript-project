@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:url(wp6819595-cool-4k-wallpapers.jpg) no-repeat;
+    background-size: cover;
+}
+.navebar{
+    margin-top: 30px;
+}
+.navebar img{
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+.menu{
+    margin-left: 800px;
+}
+.navebar ul {
+    font-family: "chivo mono",monospace;
+    display: flex;
+    gap: 60px;
+    
+  }
+  
+.navebar  li {
+    list-style: none;
+    
+    
+  }
+  
+.navebar  li a {
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    padding: 0px;
+    transition: 0.5s ease;
+    
+  }
+ul:hover li a{
+    color: #ff0000;
+}
+  
+Ul:hover li a:not(:hover) {
+    color: white;
+    opacity: 0.3;
+    filter: blur(1px);
+  }
+
+.box{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+.box h1{
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align:justify;
+    font-size: 16px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color:#ffff;
+    text-decoration: none;
+    font-size: 40px;
+    transition:all ease-in-out 250ms;
+
+}
+.box li a:hover{
+    color: #060606;
+}
+h4{
+    color: rgb(255, 255, 255);
+    
+}

@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:url(bg1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 300px;
+    background-color: rgb(251, 249, 249);
+    background-size: cover;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 13%;
+    color: rgb(2, 2, 2);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    position:relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color:#000;
+
+}
+.gender{
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.input-form{
+    background-color: rgb(69, 69, 249);
+    position: relative;
+    height: 25px;
+    width: 60%;
+    margin-top: 15px;
+}
+.input-form input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+}
+.input-form i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.submit{
+    text-align: center;
+}
+
+
